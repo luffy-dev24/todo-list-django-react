@@ -1,0 +1,61 @@
+.addtask-box {
+    height: 40vh;
+    width: 40vw;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    border: 1px solid #e2e8f0;
+}
+
+.addtask-box label {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: large;
+    font-weight: bold;
+    color: #4f46e5;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.addtask-box label input[type="text"] {
+    padding: 10px 14px;
+    border: 2px solid #4f46e5;
+    border-radius: 8px;
+    background-color: #f0f2f5;
+    color: #333333;
+    font-size: medium;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.addtask-box label input[type="text"]:focus {
+    border-color: #4338ca;
+    box-shadow: 0 0 8px rgba(79, 70, 229, 0.2);
+}
+
+.addtask-box label button {
+    padding: 10px 0;
+    background-color: #4f46e5;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.addtask-box label button:hover {
+    background-color: #4338ca;
+    transform: scale(1.03);
+}
+
+.addtask-box label button:active {
+    transform: scale(0.97);
+}

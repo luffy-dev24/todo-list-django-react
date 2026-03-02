@@ -1,0 +1,51 @@
+.header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .rigth-side p {
+    font-size: x-large;
+    font-weight: bold;
+    color: #4f46e5;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.header .left-side ul {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+    align-items: center;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.header .left-side ul li {
+    color: #333333;
+    cursor: pointer;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.header .left-side ul li:hover {
+    background-color: #4f46e5;
+    color: #ffffff;
+}
+
+.header .left-side ul li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.header .left-side ul li a:hover {
+    color: #ffffff;
+}
