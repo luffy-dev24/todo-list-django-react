@@ -49,3 +49,11 @@
 .task-box button:active {
     transform: scale(0.96);
 }
+.task-title {
+    cursor: pointer;
+}
+
+.task-title:hover {
+    text-decoration: underline;
+    color: #007bff;
+}

@@ -111,6 +111,11 @@ function ViewTasks(){
         <div className="box">
             <h1>Tasks</h1>
             <br />
+            {data.length > 0 && (
+                <p style={{ color: "#888", fontSize: "0.85rem" }}>
+                    💡 Click on a task title to update it.
+                </p>
+            )}
             {
                 data.length > 0 ? (
                     data.map((d, idx) => (
